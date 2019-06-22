@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Penguicon</title>
+  <meta name="description" content="{{site.description}}" />	
+  <meta property="og:url"
+    content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:title" content="Penguicon" />
+  <meta property="og:description" content="{{site.description}}" />
+  <!-- <meta property="og:image" content="{{ site.url }}/assets/images/" /> -->
+  <link href="/assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png" sizes="32x32" />
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
+</head>
+<body>
+<div class="header">
+  <div class="chevron">
+    <a href="/">
+  </a>
+  </div>
+  <div class="headline">
+    <h1>Penguicon</h1>
+    <a href="/"></a>
+  </div>
+  <h2>
+    April 24 - 26, 2020, Southfield, Michigan
+    <a href="/"></a>
+  </h2>
+</div>
+<div class="wrapper">
+  <div class="nav">
+
+    <ul class="main-menu">
+
+      {% assign category_string = "" %}
+      {% for page in site.pages %}
+      {% unless page.category == Nil %}
+      {%   assign category_name = page.category %}
+      {%   unless category_string contains category_name %}
+      {%     capture category_string %}
+      {{category_string}}{{category_name}},
+      {%     endcapture %}
+      {%   endunless %}
+      {% endunless %}
+      {% endfor %}
+
+      {% assign temp_list = category_string | split: "," %}
+      {% comment %} Remove the final comma {% endcomment %}
+      {% assign size = temp_list | size | minus: 1 %}
+      {% assign category_list = temp_list | slice: 0, size %}
+      {% for submenu in category_list %}
+      {% unless submenu == "" %}
+        <li>
+          <span class="submenu-label">{{submenu}}</span>
+          <ul class="submenu">
+            {% for page in site.pages %}
+            {%   if submenu contains page.category %}
+            <li class="submenu-item">
+              <a href="{{ page.url }}">{{ page.title }}</a>
+            </li>
+            {%   endif %}
+            {% endfor %}
+          </ul>
+        </li>
+      {% endunless %}
+      {% endfor %}</ul>
+
+  </div>
+  <div class="content">
+    {{ content }}
+  </div>
+</div>
+</body>
+</html>

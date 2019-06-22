@@ -1,0 +1,17 @@
+---
+label: Blog post
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  default: post
+  hidden: true
+- type: text
+  name: title
+  label: Title of the blog post
+  description: The subject line of this blog post.
+- type: datetime
+  name: date
+  label: Date of the blog post
+  description: You can edit what date this blog post displays.

@@ -1,0 +1,27 @@
+---
+label: Page
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: layout
+  label: layout
+  default: page
+  hidden: true
+- type: text
+  name: title
+  label: Title of the page
+  description: This will show up in the nav menu, and as the headline of the page.
+- type: text
+  name: permalink
+  label: URL permalink "slug"
+  description: This will go in the URL. You can change this in case you want it to
+    be different from the Title.
+- type: text
+  name: category
+  label: Category (nav submenu)
+  description: In order for this page to go in the correct nav menu, it must be letter-for-letter
+    identical.
+pages:
+- purchase-a-badge.md
+- hotel.md

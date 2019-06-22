@@ -1,0 +1,244 @@
+body {
+  font-family: 'Source Sans Pro';
+  background-color: #222;
+}
+
+.header {
+  position: relative;
+  margin: 1rem 4rem;
+  display: grid;
+  grid-template-columns: 10rem auto;
+  grid-template-rows: auto;
+  grid-column-gap: .5rem;
+  grid-row-gap: .5rem;
+}
+
+.chevron {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  width: 7rem;
+}
+
+.chevron > a {
+  background: center / contain no-repeat url('/assets/images/starfleettux.svg');
+}
+
+.chevron:before, .chevron:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 90%;
+  background: #eee;
+  z-index: -1;
+}
+
+.chevron:before {
+  left: 0;
+  width: 46.5%;
+  transform: skew(0deg, 8deg);
+  border-left: .3rem solid #fb6;
+  border-top: .3rem solid #fb6;
+  border-bottom: .3rem solid #fb6;
+}
+
+.chevron:after {
+  right: 0;
+  width: 46.5%;
+  transform: skew(0deg, -8deg);
+  border-right: .3rem solid #fb6;
+  border-top: .3rem solid #fb6;
+  border-bottom: .3rem solid #fb6;
+}
+
+.headline {
+  position: relative;
+}
+
+.header a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.headline > h1, .headline > h1:before {  
+  margin: 0;
+  color: #fb6;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-style: italic;
+}
+
+.headline > h1 {
+  grid-column: 2;
+  grid-row: 1;
+  z-index: 10;
+}
+
+.headline > h1:before {
+  position: absolute;
+  content: 'PENGUICON';
+  -webkit-text-stroke: .7rem #000;
+  z-index: -1;
+}
+
+.headline > h1:after {
+  position: absolute;
+  content: 'PENGUICON';
+  -webkit-text-stroke: 1.2rem #ddd;
+  z-index: -2;
+  left: 0;
+}
+
+.header > h2 {
+  -webkit-text-stroke: .08rem #444;
+  color: #eee;
+  margin: 0;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.nav {
+  background-color: #222;
+  max-width: 14rem;
+  flex-basis: 40%;
+}
+
+.main-menu {
+  margin: 0;
+  padding-left: 0;
+}
+
+.submenu-label {
+  color: #eee;
+  font-size: 1.2rem;
+  font-weight: bold;
+  -webkit-text-stroke: .08rem #444;
+  padding: .5rem;
+}
+
+.submenu-label, .submenu-item {
+  list-style-type: none;
+}
+
+.submenu {
+  margin-top: .1rem;
+  padding-left: 0;
+}
+
+.submenu-item {
+  padding: .5rem;
+  background-color: #fb6;
+  border-bottom: .1rem solid rgb(228, 228, 228);
+}
+.submenu-item a {
+  color: #222;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  background-color: #b22;
+}
+
+.content {
+  background-color: #eee;
+  border: .1rem solid #fff;
+  margin: 1rem 6rem 1rem 1rem;
+  padding: 1rem 6rem;
+  flex-basis: 60%;
+}
+
+.subcontainer {
+  margin: auto;
+  width: 44rem;
+}
+.carousel {
+  position: relative;
+}
+.carousel .prev, .carousel .next {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 90;
+}
+.carousel .next {
+  right: 0;
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+.carousel .prev-arrow, .carousel .next-arrow {
+  position: absolute;
+  top: 45%;
+}
+.carousel .prev-arrow {
+  left: .5rem;
+}
+.carousel .next-arrow {
+  right: .5rem;
+}
+.carousel ol {
+  display: relative;
+  width: 100%;
+  height: 100%;
+}
+.carousel li {
+  list-style: none;
+  list-style-type: none;
+  top: 0;
+  left: 0;
+}
+.carousel li.current {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  transform: scale(1);
+  transition: 1s;
+}
+.carousel li:not(.current) {
+  transform: scale(0);
+  transition: 1s;
+}
+.carousel a {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+}
+.friends-of-the-meeple {
+  // grid-row: 1;
+  // grid-column: 3;
+}
+marquee, .carousel {
+  border: 1rem solid $complement-dark;
+  width: 89%;
+  height: 10rem;
+}
+marquee img {
+  max-width: 100%;
+  object-fit: cover;
+}
+marquee img:hover:after {
+  content: attr(data-caption);
+  position: absolute;
+  bottom: -1.25rem;
+}
