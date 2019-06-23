@@ -116,12 +116,19 @@ body {
   background-color: #b22;
 }
 
+.content-wrapper {
+  flex-basis: 75%;
+}
+
+.pagetitle {
+  color: #eee;
+  padding: 0 2rem;
+}
+
 .content {
   background-color: #eee;
-  border: .1rem solid #fff;
   margin: 1rem 6rem 1rem 1rem;
   padding: 1rem 6rem;
-  flex-basis: 60%;
 }
 
 .subcontainer {
