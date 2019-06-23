@@ -4,8 +4,6 @@ title: Follow
 permalink: /follow/
 category: Contact Us
 ---
-#Follow Us!
-
 [Facebook](http://www.facebook.com/groups/penguicon)
 
 [Mastodon](https://penguicon.social)
