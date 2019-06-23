@@ -131,6 +131,18 @@ body {
   padding: 1rem 6rem;
 }
 
+td:first-child {
+  font-weight: bold;
+}
+
+td {
+  padding: .5rem 1rem;
+}
+
+tr:nth-child(odd){
+  background-color: #ccc;
+}
+
 .subcontainer {
   margin: auto;
   width: 44rem;
