@@ -56,5 +56,5 @@ The Board usually meets at Penguicon, but also meets four times a year at the he
 President | Randy Bradakis | randy@penguicon.org
 Vice President | Jessica Roland
 Secretary | Chelle Silas | secretary@penguicon.org
-Information Technology | Matt Arnold | matt@penguicon.org
-Minister Without Portfolio | James Hice
+Treasurer | Amanda Long-Adams | treasurer@penguicon.org
+Information Technology | Matt Arnold | matt@penguicon.org Minister Without Portfolio | James Hice
