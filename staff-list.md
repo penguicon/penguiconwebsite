@@ -43,11 +43,11 @@ Whether or not we have tracks such as Video Gaming, Media, Anime, Food, D.I.Y., 
 
 Penguicon is run by a Convention Committee for one year at a time, but also has a multi-year governing body, the Board of Directors. The Board makes decisions for future years of Penguicon, but does so only when unavoidable, in order to leave the Convention Committee with as much control of their weekend as possible. Multi-year decisions include:
 
-* Select each year’s Convention Chair.
-* Approve the Convention Chair’s budget proposal.
+* Select each year's Convention Chair.
+* Approve the Convention Chair's budget proposal.
 * Keep the bank account.
 * Pay taxes.
-* Set down the \[eight minimum rules\]({{"/code-of-conduct/#the-permanent-minimum-rules" | absolute_url }}) that each year’s Convention Committee expands on.
+* Set down the [eight minimum rules]({{"/code-of-conduct/#the-permanent-minimum-rules" | absolute_url }}) that each year's Convention Committee expands on.
 * Collect private reports of isolated misconduct, to detect multi-year patterns of misconduct from any individual which may need to be addressed outside the convention weekend.
 * Provide information technology infrastructure.
 
