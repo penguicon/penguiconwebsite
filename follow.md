@@ -14,7 +14,8 @@ category: Contact Us
 
 [IRC](http://chat.penguicon.org/)
 
-MAILING LISTS
+## Email Lists
+
 Our mailing lists are another way to get updates about Penguicon. Information about Convention Committee meetings and Board meetings is usually shared on the general mailing list.
 
 [Board – Penguicon Board of Directors](http://lists.penguicon.org/listinfo.cgi/board-penguicon.org)
