@@ -143,6 +143,13 @@ tr:nth-child(odd){
   background-color: #ccc;
 }
 
+.content img {
+  float: right;
+  width: 16rem;
+  margin: 1rem;
+  border: .5rem solid #222;
+}
+
 .subcontainer {
   margin: auto;
   width: 44rem;
