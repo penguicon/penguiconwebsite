@@ -2,9 +2,11 @@
 layout: page
 
 ---
+
+{% include carousel.html %}
+
 Penguicon is a non-profit, community-run convention for open source software and hardware, science fiction, gaming, DIY, cosplay, and more!
 
-  
 ## WHAT IS PENGUICON?
 
 ### YOUR HAPPY PLACE

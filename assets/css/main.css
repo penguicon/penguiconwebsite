@@ -220,14 +220,10 @@ tr:nth-child(odd){
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
 }
-.friends-of-the-meeple {
-  // grid-row: 1;
-  // grid-column: 3;
-}
 marquee, .carousel {
-  border: 1rem solid $complement-dark;
-  width: 89%;
-  height: 10rem;
+  border: 1rem solid #eee;
+  width: 35rem;
+  height: 20rem;
 }
 marquee img {
   max-width: 100%;
