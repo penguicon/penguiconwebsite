@@ -111,6 +111,17 @@ body {
   text-decoration: none;
 }
 
+.submenu-item p {
+  margin: 0;
+}
+
+.dateline {
+  font-style: italic;
+  margin: 0;
+  padding-right: .5rem;
+  background-color: rgb(190, 124, 42);
+}
+
 .wrapper {
   display: flex;
   background-color: #b22;
