@@ -4,4 +4,25 @@ title: Events Calendar
 permalink: /events-calendar/
 category: About Penguicon
 ---
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=cGVuZ3VpY29uLm9yZ19ydGY5cThtNGg2bWwyZ2JmZDdqZzhpYnA2a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23AD1457&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0" style="border-width:0" width="500" height="600" frameborder="0" scrolling="no"></iframe>
+<div id="events-upcoming"></div>
+<div id="events-past"></div>
+<script>
+formatGoogleCalendar.init({
+ calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/penguicon.org_rtf9q8m4h6ml2gbfd7jg8ibp6k@group.calendar.google.com/events?key=AIzaSyArLN1xWJ5NMl9b131-giVz9E_BQM6djME',
+ past: true,
+ upcoming: true,
+ sameDayTimes: true,
+ dayNames: true,
+ pastTopN: -1,
+ upcomingTopN: 3,
+ itemsTagName: 'div',
+ upcomingSelector: '#events-upcoming',
+ pastSelector: '#events-past',
+ recurringEvents: true, 
+ upcomingHeading: '<h2>Upcoming Events</h2>',
+ pastHeading: '<h2>Past Events</h2>',
+ format: ['<h3>', '*summary*', '</h3><p>', '*date*', '</p><p>', '*location*', '</p><p>', '*description*', '</p>'],
+ timeMin: '2019-07-01T10:00:00-07:00',
+ timeMax: '2020-07-01T10:00:00-07:00'
+});
+</script>

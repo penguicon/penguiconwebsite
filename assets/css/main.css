@@ -245,3 +245,11 @@ marquee img:hover:after {
   position: absolute;
   bottom: -1.25rem;
 }
+
+/* Calendar */
+.date, .location {
+  font-style: italic;
+}
+.summary {
+  font-weight: bold;
+}
