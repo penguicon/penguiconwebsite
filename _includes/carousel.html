@@ -1,21 +1,21 @@
 <div class="carousel">
-  <span class="prev-arrow"> ◀ </span>
-  <span class="next-arrow"> ▶ </span>
-  <div class="prev"></div>
-  <div class="next"></div>
-  <ol>
-
-    {% assign image_extensions = '.png, .jpg, .jpeg' | split: ', ' %}
-    {% for static_file in site.static_files %}
-    {%   assign path_segments = static_file.path | split: "/"" %}
-    {%   assign folder = path_segments[3] %}
-    {%   if folder == "carousel" and image_extensions contains static_file.extname %}
-    <li style="background-image: url({{static_file.path}})">
-    </li>
-    {%   endif %}
-    {% endfor %}
-
-  </ol>
+  <div class="aspect-ratio-container">
+    <span class="prev-arrow"> ◀ </span>
+    <span class="next-arrow"> ▶ </span>
+    <div class="prev"></div>
+    <div class="next"></div>
+    <ol>
+      {% assign image_extensions = '.png, .jpg, .jpeg' | split: ', ' %}
+      {% for static_file in site.static_files %}
+      {%   assign path_segments = static_file.path | split: "/"" %}
+      {%   assign folder = path_segments[3] %}
+      {%   if folder == "carousel" and image_extensions contains static_file.extname %}
+      <li style="background-image: url({{static_file.path}})">
+        </li>
+        {%   endif %}
+        {% endfor %}
+    </ol>
+  </div>
 </div>
 <script>
   carousel = (function(){

@@ -165,7 +165,11 @@ tr:nth-child(odd){
   margin: auto;
   width: 44rem;
 }
-.carousel {
+
+/* Carousel */
+.aspect-ratio-container {
+  width: 100%;
+  padding-top: 75%;
   position: relative;
 }
 .carousel .prev, .carousel .next {
@@ -174,7 +178,7 @@ tr:nth-child(odd){
   height: 100%;
   width: 2rem;
   background-color: rgba(255, 255, 255, 0.5);
-  z-index: 90;
+  z-index: 100;
 }
 .carousel .next {
   right: 0;
@@ -188,6 +192,7 @@ tr:nth-child(odd){
 .carousel .prev-arrow, .carousel .next-arrow {
   position: absolute;
   top: 45%;
+  z-index: 200;
 }
 .carousel .prev-arrow {
   left: .5rem;
@@ -233,8 +238,8 @@ tr:nth-child(odd){
 }
 marquee, .carousel {
   border: 1rem solid #eee;
-  width: 35rem;
-  height: 20rem;
+  width: 100%;
+  position: relative;
 }
 marquee img {
   max-width: 100%;
