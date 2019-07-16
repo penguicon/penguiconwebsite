@@ -5,7 +5,9 @@
  *
  */
 /**
- * Edited by Matt Arnold, 2019, to make summaries into links to Google Calendar
+ * Edited by Matt Arnold, 2019,
+ * to make summaries into links to Google Calendar,
+ * and to preserve linebreaks in event descriptions.
  */
 
 window.formatGoogleCalendar = (() => {
@@ -178,7 +180,8 @@ window.formatGoogleCalendar = (() => {
         var dateFormatted = getFormattedDate(dateStart, dateEnd, dayNames, moreDaysEvent, isAllDayEvent),
             output = '<' + tagName + '>',
             summary = result.summary || '',
-            description = result.description || '',
+            var_linebreak_regex = /\n/ig,
+            description = result.description.replace(var_linebreak_regex, '</p><p>') || '',
             location = result.location || '',
             htmlLink = result.htmlLink || '',
             i;
@@ -191,7 +194,7 @@ window.formatGoogleCalendar = (() => {
             } else if (format[i] === '*date*') {
                 output = output.concat(`<span class="date">${dateFormatted}</span>`);
             } else if (format[i] === '*description*') {
-                output = output.concat(`<span class="description">${description}</span>`);
+                output = output.concat(`<p class="description">${description}</p>`);
             } else if (format[i] === '*location*') {
                 output = output.concat(`<span class="location">${location}</span>`);
             } else {
