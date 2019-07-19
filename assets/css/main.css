@@ -163,7 +163,7 @@ tr:nth-child(odd){
   background-color: #ccc;
 }
 
-.content img {
+.content p img {
   float: right;
   width: 16rem;
   margin: 1rem;
