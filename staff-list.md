@@ -24,13 +24,13 @@ Volunteers | Brigit Bradakis | volunteers@penguicon.org
 
 # Staff
 
-Community | Kimberly Jacob | community@penguicon.org
-Room Party Coordinator | Kimberly Jacob | roomparties@penguicon.org
-
-Maker Market | . | .
-Webservant | Matt Arnold | webmaster@penguicon.org
-Publications and Signage | . | .
-Roving Ops | . | .
+Community | Kimberly Jacob | community@penguicon.org  
+Maker Market | Jeanette Quirk | makermarket@penguicon.org  
+Webservant | Matt Arnold | webmaster@penguicon.org   
+Publications and Signage | . | .   
+Roving Ops | . | .  
+Room Party Coordinator | Kimberly Jacob | roomparties@penguicon.org  
+Sponsor Wrangler | . | sponsors@penguicon.org
 
 # Programming Track Heads
 
