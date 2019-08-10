@@ -1,7 +1,8 @@
 ---
 layout: page
-title:  "Penguicon Programming Retrospective"
-date:   2019-07-06 09:27:00 -0400
+title: Penguicon Programming Retrospective YAY
+date: 2019-07-21 13:27:00 +0000
+
 ---
 Want to have a say in how the Programming side of Penguicon works? Or just curious how we make it happen? Come see the process as we re-vamp it, or give your input on how to make it better.
 
