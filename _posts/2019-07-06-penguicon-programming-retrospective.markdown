@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Penguicon Programming Retrospective YAY
+title: Penguicon Programming Retrospective
 date: 2019-07-21 13:27:00 +0000
 
 ---
