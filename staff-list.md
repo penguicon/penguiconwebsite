@@ -19,7 +19,7 @@ Program Ops | Lithie Dubois | programops@penguicon.org
 Hospitality | Niki MacRae | consuite@penguicon.org  
 Logistics | Rich Langan | logistics@penguicon.org  
 Treasurer | Amanda Long-Adams | treasurer@penguicon.org  
-Communications |  | communications@penguicon.org  
+Communications | Scott Kennedy | communications@penguicon.org  
 Volunteers | Brigit Bradakis | volunteers@penguicon.org
 
 # Staff
