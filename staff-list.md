@@ -14,7 +14,7 @@ Registration | Paul Keyes | registration@penguicon.org
 Hotel Liaison | Jessica Roland | hotel@penguicon.org   
 Talent Coordinator | Amy Castner | talent@penguicon.org  
 Programming | Chelle Silas | programming@penguicon.org   
-Operations | Sarah Timmons | ops@penguicon.org   
+Operations | Sarah Jane Catlin | ops@penguicon.org   
 Program Ops | Lithie Dubois | programops@penguicon.org   
 Hospitality | Niki MacRae | consuite@penguicon.org  
 Logistics | Rich Langan | logistics@penguicon.org  
