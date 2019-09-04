@@ -1,17 +1,24 @@
 ---
 layout: page
-title: Purchase A Badge
+title: Purchase a Badge
 permalink: purchase-a-badge
 category: This Year At Penguicon
 
 ---
-On this page, we'll describe:
+# Pre-Registration is open!
 
-* A pre-registration form
-* Pre-registration price increases and dates
-* Special rates for Staff, Concom, Presenters, and Maker Market
-* At-the-door registration prices and hours
-* Whether or not there will be partial weekend rates
-* In-person opportunities to register
+_NOTE: All attendees, including staff, must pre-register by April 12 to get a pre-printed badge._
 
-Look for these to appear after our first planning meeting for 2020, in July.
+* Pre-Registration is $50 from November 1, 2019 until 11:59PM (Eastern) on April 12, 2020.
+* Staff and ConCom pay **$25** at any time. _(A ConCom member must confirm that you are Staff for you to receive this rate.)_
+* **Maker Market** vendors also pay $25, but must pay through their liaison. Please contact **makermarket@penguicon.org**.
+* Panelists who present **at least 3** hours of programming **or** submit their presentation (to be shared with our community via a creative commons license) in advance, will pay **$30**.
+
+## Registration Prices at the Convention
+
+* At-the-door weekend rate is **$60**
+* **Friday-only** memberships are available for **$30**. Your access to Penguicon events expires at midnight.
+* If you purchase a membership on **Saturday**, the full cost it is reduced to **$40**.
+* If you purchase a membership on **Sunday**, it is reduced to **$20**.
+
+_*Stay tuned for special promo codes that can get you a discount on badge prices from now until April 12. We will be posting these at events we attend (such as other conventions), ConCom meetings, and occasionally online via Facebook and Twitter._

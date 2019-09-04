@@ -23,5 +23,5 @@ fields:
   description: In order for this page to go in the correct nav menu, it must be letter-for-letter
     identical.
 pages:
-- hotel.md
 - purchase-a-badge.md
+- hotel.md
