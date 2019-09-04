@@ -26,4 +26,4 @@ _NOTE: All attendees, including staff, must pre-register by March 27 to get a pr
 
 _*Stay tuned for special promo codes that can get you a discount on badge prices from now until March 27. We will be posting these at events we attend (such as other conventions), ConCom meetings, and occasionally online via Facebook and Twitter._
 
-![](/assets/images/https _cdn.evbuc.com_images_69036007_27142948883_1_original.20190818-193242.jpg "Penguicon")
+> ![](/assets/images/https _cdn.evbuc.com_images_69036007_27142948883_1_original.20190818-193242.jpg "Penguicon")
