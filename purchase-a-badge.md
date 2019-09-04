@@ -7,12 +7,15 @@ category: This Year At Penguicon
 ---
 # Pre-Registration is open!
 
-_NOTE: All attendees, including staff, must pre-register by April 12 to get a pre-printed badge._
+_NOTE: All attendees, including staff, must pre-register by March 27 to get a pre-printed badge._
 
-* Pre-Registration is $50 from November 1, 2019 until 11:59PM (Eastern) on April 12, 2020.
+* Pre-Registration will be **$40** until October 31, 2019.
+* Pre-Registration will be $50 from November 1, 2019 until 11:59PM (Eastern) on March 27, 2020 when Pre-Registration closes.
 * Staff and ConCom pay **$25** at any time. _(A ConCom member must confirm that you are Staff for you to receive this rate.)_
 * **Maker Market** vendors also pay $25, but must pay through their liaison. Please contact **makermarket@penguicon.org**.
 * Panelists who present **at least 3** hours of programming **or** submit their presentation (to be shared with our community via a creative commons license) in advance, will pay **$30**.
+
+### [**REGISTER HERE TO ATTEND PENGUICON**](https://www.eventbrite.com/e/penguicon-2020-tickets-69656336979 "REGISTER HERE TO ATTEND PENGUICON")
 
 ## Registration Prices at the Convention
 
